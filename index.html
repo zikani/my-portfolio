@@ -3,6 +3,9 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Zikani Singini - Full-Stack Developer with expertise in web and software development.">
+      <meta name="keywords" content="web development, software development, portfolio, Zikani Singini">
+      <meta name="author" content="Zikani Singini">
 
       <!--=============== FAVICON ===============-->
       <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -16,6 +19,7 @@
       <title>zikani portfolio  </title>
    </head>
    <body>
+      
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
          <nav class="nav container">
@@ -64,7 +68,7 @@
                      <h3 class="home__subtitle">hello <span>I'm</span></h3>
 
                      <h1 class="home__title">Zikani singini</h1>
-                     <h3 class="home__education">software developer </h3>
+                     <h3 class="home__education">full-stack developer </h3>
                      <p class="home__description">
                         With knowledge in web development and 
                         software development, I offer the best projects resulting 
@@ -408,7 +412,7 @@
                   Zikani <span>ZMS</span>
                </h1>
                <h2 class="footer__education">
-                  software Developer
+                  Full-Stack Developer
                </h2>
                <p class="footer__description">
                   Passionate about building modern and scalable applications.
@@ -459,6 +463,25 @@
          <i class="ri-arrow-up-line"></i>
       </a>
 
+      <!-- Scroll button -->
+      <button id="chatbot-scroll-button">💬</button>
+
+      <!-- Chatbot -->
+      <div id="chatbot">
+         <div id="chatbot-header">
+             <i class="ri-robot-3-line"></i> <!-- Icon for chatbot header -->
+             <span>Chat with Me</span>
+             <button id="chatbot-close"><i class="ri-close-line"></i></button> <!-- Icon for close button -->
+         </div>
+         <div id="chatbot-body">
+             <div id="chatbot-messages"></div>
+         </div>
+         <div id="chatbot-input">
+             <input type="text" id="chatbot-input-field" placeholder="Type a message...">
+             <button id="chatbot-send"><i class="ri-send-plane-line"></i></button> <!-- Icon for send button -->
+         </div>
+     </div>
+
       <!--=============== SCROLLREVEAL ===============-->
       <script src="https://unpkg.com/scrollreveal"></script>
 
@@ -468,5 +491,6 @@
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
+      <script src="assets/js/chatbot.js"></script>
    </body>
 </html>
